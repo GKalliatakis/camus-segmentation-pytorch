@@ -105,7 +105,6 @@ class CamusUnet1(nn.Module):
         u1_out = self.u1(torch.cat([d5_out, up_sampling1], axis=1))
 
         up_sampling2 = self.UpSampling1(u1_out)
-        # print(d5_out.size(), up_sampling1.size())
         u2_out = self.u1(torch.cat([d4_out, up_sampling2], axis=1))
 
         up_sampling3 = self.UpSampling2(u2_out)
