@@ -1,7 +1,9 @@
 # CAMUS Segmentation: Semantic segmentation with PyTorch using an open large-scale dataset in 2D Echocardiography 
 
-<a href="#"><img src="https://img.shields.io/badge/python-v3.6+-blue.svg?logo=python&style=flat" /></a>
+<a href="https://www.python.org/"><img src="https://img.shields.io/badge/python-v3.6+-9cf.svg?logo=python&style=flat" /></a>
 <a href="https://pytorch.org/"><img src="https://img.shields.io/badge/PyTorch-v1.10.1-red.svg?logo=PyTorch&style=flat" /></a>
+<a href="https://releases.ubuntu.com/18.04.6/?_ga=2.264946639.1101608567.1668677170-1638439465.1665151863"><img src="https://img.shields.io/badge/Ubuntu-18.04-informational.svg?logo=Ubuntu&style=flat" /></a>
+<a href="https://github.com/GKalliatakis/camus-segmentation-pytorch/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-orange.svg" /></a>
 
 
 ## Detailed architectures
@@ -46,4 +48,4 @@ model = model.to(device)
 
 
 ## License
-All code in this repository is under the MIT license as specified by the [LICENSE file](https://github.com/GKalliatakis/camus-segmentation-pytorch/blob/main/LICENSE).
+Distributed under the MIT License. See [LICENSE](https://github.com/GKalliatakis/camus-segmentation-pytorch/blob/main/LICENSE) file for more information.
