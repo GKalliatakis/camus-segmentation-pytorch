@@ -20,6 +20,9 @@ increases and decreases linearly from an initial kernel size of 48, which makes 
   <img width="892" src="figures/detailed_architectures.png" alt="detailed_architectures">
 </p>
 
+<p align="center">
+  <img width="892" src="figures/U-Net2.png" alt="U-Net2">
+</p>
 
 ## Usage
     
@@ -45,7 +48,7 @@ model = model.to(device)
 - [CAMUS project](https://www.creatis.insa-lyon.fr/Challenge/camus/)
 - [CAMUS Exploratory Data Analysis](https://www.kaggle.com/code/sontungtran/camus-eda/notebook)
 - [PyTorch U-Net](https://github.com/milesial/Pytorch-UNet)
-
+- [PlotNeuralNet](https://github.com/HarisIqbal88/PlotNeuralNet)
 
 ## License
 Distributed under the MIT License. See [LICENSE](https://github.com/GKalliatakis/camus-segmentation-pytorch/blob/main/LICENSE) file for more information.
